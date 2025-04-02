@@ -1,8 +1,8 @@
 def number(a):
     if a>0:
-        print("true")
+        return True
     elif a<0:
-        print("false")
+        return False
 a=int(input())
 m=number(a)
 
